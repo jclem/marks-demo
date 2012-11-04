@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'jquery-rails'
 gem 'pg'
 gem 'pg_search'
+gem 'faker'
 gem 'rails', '3.2.8'
 gem 'ejs'
 
