@@ -12,4 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require underscore
+//= require backbone
+//= require marionette
+//= require_tree ../templates
+//= require backbone/app
+//= require backbone/init
+//= require_tree ./backbone
 //= require_tree .

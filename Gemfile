@@ -4,6 +4,7 @@ gem 'jquery-rails'
 gem 'pg'
 gem 'pg_search'
 gem 'rails', '3.2.8'
+gem 'ejs'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
