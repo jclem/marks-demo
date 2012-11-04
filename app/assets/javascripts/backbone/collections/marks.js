@@ -1,5 +1,11 @@
 (function () {
   App.Collections.Marks = Backbone.Collection.extend({
-    url: '/api/marks'
+    url: function () {
+      if (this.query) {
+        return '/api/marks?query=' + encodeURIComponent(this.query);
+      } else {
+        return '/api/marks';
+      }
+    }
   });
 })();
