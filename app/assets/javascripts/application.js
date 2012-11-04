@@ -18,5 +18,6 @@
 //= require_tree ../templates
 //= require backbone/app
 //= require backbone/init
+//= require_tree ./backbone/views
 //= require_tree ./backbone
 //= require_tree .
